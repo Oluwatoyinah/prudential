@@ -1,0 +1,186 @@
+.navbar-custom {
+	background-color: white;
+	padding: 20px 40px;
+	position: sticky;
+	top: 0;
+}
+
+
+.navbar-custom li a {
+	color: #0D131D;
+	font-size: 18px;
+}
+
+.navbar-custom .nav2 li a  {
+	color: #D52B1E;
+	
+}
+nav ul li a:hover {
+	text-decoration: underline;
+	padding-bottom: 3px;
+	text-decoration-color: red;
+}
+.option {
+	height: 100vh;
+}
+
+
+.row div h6 {
+	color: #D52B1E;
+	font-size: 13px;
+}
+.content1 {
+	padding: 150px 10%;
+	min-height: 95vh;
+	color: #0D131D;
+}
+
+.Ccontent1 h1 {
+	font-size: 45px;
+	font-family: oxygen;
+}
+
+.content2 {
+	padding: 100px 18%;
+}
+
+.content2 p {
+	font-size: 19px;
+}
+
+.content3 {
+	padding: 100px 18% 100px 8%;
+	min-height: 50vh; 
+}
+
+.content4 {
+	padding: 100px 8% 100px 18%;
+}
+
+.content5 {
+	padding: 100px 8% 100px 18%;
+	min-height: 80vh;
+}
+
+.content6 {
+	padding: 100px 10%;
+}
+
+.content7 {
+	padding: 100px 10%;
+}
+
+.content5 img {
+	width: 90%;
+}
+
+.content5 .row div , .content6 .row div, .content7 .row div {
+	margin: auto;
+}
+.sub {
+	background-color: #F5F5F4;
+	padding: 120px 8%;
+}
+
+
+.content9 {
+	min-height: 100vh;
+
+
+}
+
+.career {
+	background-color: #646BB0;
+	padding: 50px 5% 50px 8%;
+	margin-top: 150px;
+	margin-bottom: 150px;
+	color: white;
+}
+
+.content10 {
+	min-height: 90vh;
+}
+
+.one {
+	background-color: #f5F5F4;
+	padding: 100px 3% 100px 10%;
+	min-height: 90vh;
+}
+
+.two {
+	padding: 100px 10% 100px 3%;
+	min-height: 90vh;
+}
+
+.content11 .row div {
+	padding: 50px 50px;
+	background-color: #0D131D ;
+	color: white;
+	transition: background-color 1s;
+	border: 0 1px solid rgba(42,42,42,0.5);
+}
+
+
+.content11 .row div:hover {
+
+	background-color: #0C0F15 ;
+}
+
+.content12 {
+	text-align: center;
+	padding: 50px 30px;
+	background-color: #0C0F15 ;
+	color: white;
+	font-size: 13px;
+}
+
+.content12 p {
+	padding: 0 6%;
+}
+
+.content12 h6 {
+	color: red;
+}
+
+
+.cookie {
+	padding: 10px 6%;
+	position: sticky;
+	bottom: 0;
+	background-color: white;
+}
+
+
+.cookie button {
+	margin: 5px 10px;
+	background-color: red;
+	color: white;
+	font-size: 14px;
+	border: 1px solid red;
+}
+
+.offcanvas-body .row div {
+	
+	border: 0 1px solid rgba(42,42,42,0.5);
+}
+
+.offcanvas-body .row div img{
+	width: 80%;
+}
+
+.offcanvas-body .row div ul li a{
+	padding: 20px;
+	text-decoration: none;
+	font-size: 18px;
+	color: #0D131D;
+	font-weight: bold;
+	transition: padding 800ms ease-in;
+}
+
+.offcanvas-body .row div ul li a:hover{
+	padding-left: 40px;
+	color: #D52B1E;
+}
+.option button {
+	margin-right: 30px;
+}

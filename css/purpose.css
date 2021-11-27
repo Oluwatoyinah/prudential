@@ -1,0 +1,137 @@
+
+.navbar-custom {
+	background-color: white;
+	padding: 20px 40px;
+	position: sticky;
+	top: 0;
+
+}
+
+
+.navbar-custom li a {
+	color: #0D131D;
+	font-size: 18px;
+}
+
+.navbar-custom .nav2 li a  {
+	color: #D52B1E;
+	
+}
+nav ul li a:hover {
+	text-decoration: underline;
+	padding-bottom: 3px;
+	text-decoration-color: red;
+}
+.option {
+	height: 100vh;
+}
+
+
+.row div h6 {
+	color: #D52B1E;
+	font-size: 13px;
+}
+.content1 {
+	padding: 150px 10%;
+	min-height: 60vh;
+	color: #0D131D;
+}
+
+.content1 h1 {
+	font-size: 45px;
+	font-family: oxygen;
+}
+
+
+.content2 {
+	padding: 100px 18%;
+}
+
+.content2 p {
+	font-size: 19px;
+}
+
+.content11 .row div {
+	padding: 50px 50px;
+	background-color: #0D131D ;
+	color: white;
+	transition: background-color 1s;
+	border: 0 1px solid rgba(42,42,42,0.5);
+}
+
+
+.content11 .row div:hover {
+
+	background-color: #0C0F15 ;
+}
+
+.content12 {
+	text-align: center;
+	padding: 50px 30px;
+	background-color: #0C0F15 ;
+	color: white;
+	font-size: 13px;
+}
+
+.content12 p {
+	padding: 0 6%;
+}
+
+.content12 h6 {
+	color: red;
+}
+
+.content5 {
+	padding: 100px 8% 100px 18%;
+	min-height: 80vh;
+}
+
+.content7 {
+	padding: 100px 8%;
+
+}
+
+.content5 img {
+	width: 90%;
+	padding-bottom: 20px;
+}
+
+.sub {
+	background-color: #646BB0;
+	padding: 120px 8%;
+	min-height: 65vh;
+		color: white;
+}
+
+.content4 {
+	padding: 100px 8% ;
+}
+.content4 .row div , .content4 .row div, .content7 .row div {
+	margin: auto;
+}
+
+.offcanvas-body .row div {
+	
+	border: 0 1px solid rgba(42,42,42,0.5);
+}
+
+.offcanvas-body .row div img{
+	width: 80%;
+}
+
+.offcanvas-body .row div ul li a{
+	padding: 20px;
+	text-decoration: none;
+	font-size: 18px;
+	color: #0D131D;
+	font-weight: bold;
+	transition: padding 800ms ease-in;
+}
+
+.offcanvas-body .row div ul li a:hover{
+	padding-left: 40px;
+	color: #D52B1E;
+}
+.option button {
+	margin-right: 30px;
+}
