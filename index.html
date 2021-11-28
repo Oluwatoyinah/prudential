@@ -8,10 +8,10 @@
 </head>
 <body>
 
-	<nav class="navbar navbar-expand-lg navbar-custom">
+	<nav class="navbar navbar-expand-lg navbar-custom shadow-sm">
  		<div class="container-fluid">
     		<a class="navbar-brand" href="#"><img src="images/logo.jpg"></a>
-    			<button class="navbar-toggler navbar-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop" aria-expanded="false" aria-label="Toggle navigation">
+    			<button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" >
       				<span class="navbar-toggler-icon"></span>
     			</button>
     		<div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -50,11 +50,38 @@
 
 
 
+
+<!-- CAROSEL
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+ -->
+
+
+
 <div class="container-fluid content1" style="background-image: url('images/banner.jpg'); background-position: center; background-size: cover;"> 
 	<div class="row">
-		<div class="col-lg-5">
+		<div class="col-lg-5 reveal">
 			<h1>We help people get the most out of life</h1>
-			<button>FIND OUT MORE</button>
+			<button class="but3">FIND OUT MORE</button>
 		</div>
 	</div>
 </div>
@@ -62,7 +89,7 @@
 
 
 <div class="container-fluid content2">
-	<div class="row">
+	<div class="row reveal">
 		<p class="col-lg-12 ">Prudential plc provides life and health insurance and asset management, with a focus on Asia and Africa. We help people get the most out of life, by making healthcare affordable and accessible and by promoting financial inclusion. We protect people’s wealth, help them grow their assets, and empower them to save for their goals. The business has more than 17 million life customers in Asia and Africa. We are no longer affiliated with Prudential UK and Europe (Prudential Assurance Company Ltd), as this business became part of M&G plc in October 2019. Customers and advisers of Prudential UK and Europe should visit <span><a href="">www.pru.co.uk</a></span>  for information and contact details for this business.</p>
 		</div>	
 	</div>
@@ -71,7 +98,7 @@
 <div class="container-fluid content3">
 	<div class="row">
 		<img class="col-lg-8" src="" alt="An image will be here">
-			<div class="col-lg-4">
+			<div class="col-lg-4 reveal">
 				<h6>PERFORMANCE</h6>
 				<h2>2021 Half year result videos</h2>
 				<p>Watch a short video of Group Chief Executive Mike Wells outlining our results and our strategy.</p>
@@ -80,7 +107,7 @@
 	</div>
 
 	<div class="container-fluid content4">
-		<div class="row">
+		<div class="row reveal">
 			<div class="col-lg-4">
 				<h6>INVESTORS</h6>
 				<h2>June 02, Investor Day</h2>
@@ -95,13 +122,13 @@
 			<div class="col-lg-5">
 				<img src="images/net.jpg" alt="An image goes in here">
 				<h6>ESG</h6>
-				<h2>We are supporting the low-carbon transition with a pledge to become a “net zero” asset owner by 2050</h2><br>
+				<h3 class="reveal">We are supporting the low-carbon transition with a pledge to become a “net zero” asset owner by 2050</h3>
 				<p>READ MORE</p>
 			</div>
 			<div class="col-lg-5">
 				<img src="images/esg.jpg" alt="An image goes in here">
 				<h6>ESG</h6>
-				<h2>Read how we are helping people get the most out of life in our latest ESG Report</h2><br>
+				<h3 class="reveal">Read how we are helping people get the most out of life in our latest ESG Report</h3>
 				<p>READ THE REPORT</p>
 			</div>
 		</div>
@@ -110,10 +137,10 @@
 	<div class="container-fluid content6">
 		<div class="row">
 			<img class="col-lg-5" src="images/family.jpg" alt="An image will be here">
-			<div class="col-lg-5">
+			<div class="col-lg-5 reveal">
 				<h6>INNOVATION</h6>
 				<h2>Pulse-transforming prudential</h2>
-				<p>Watch a short video showcasing the benefits of Pulse by Prudential, our health and wellbeing super-app, showing how we are  transforming to meet the needs of people in Asia.</p><br>
+				<h3>Watch a short video showcasing the benefits of Pulse by Prudential, our health and wellbeing super-app, showing how we are  transforming to meet the needs of people in Asia.</h3><br>
 				<p>- WATCH THE VIDEO </p>
 				<p>- WATCH MIKE WELLS TALKING ABOUT PULSE AND OUR PURPOSE</p>
 
@@ -125,7 +152,7 @@
 		<div class="row">
 			<img class="col-lg-5" src="images/resilent.jpg" alt="An image will be here">
 			
-			<div class="col-lg-5">
+			<div class="col-lg-5 reveal">
 				<h6>2021 HALF YEAR RESULT</h6>
 				<h2>Resilient performance and progress on strategic transformation</h2><br>
 				<p>- READ THE NEWS RELEASE</p>
@@ -138,9 +165,9 @@
 
 	<div class="container-fluid content8">
 		<div class="row">
-			<div class="col-lg-11 sub">
+			<div class="col-lg-11 sub reveal">
 				<h1>Alert - Financial fraud</h1><br>
-				<button>READ MORE</button>
+				<button class="but1">READ MORE</button>
 			</div>
 
 		</div>
@@ -149,11 +176,11 @@
 	<div class="container-fluid content9" style="background-image: url('images/quality.jpg'); background-position: center;
 	background-size: cover;">
 		<div class="row">
-			<div class="col-lg-7 career">
+			<div class="col-lg-7 career reveal">
 				<h6>CAREERS</h6>
 				<h1>Quality people at our core</h1><br>
 				<p>The success of our teams goes deeper than just the strengthening of capabilities; we nurture talent today to sustain the future of our business.</p><br>
-				<button>JOIN US</button>
+				<button class="but2">JOIN US</button>
 
 			</div>
 		</div>
@@ -161,24 +188,24 @@
 
 	<div class="container-fluid content10">
 		<div class="row">
-			<div class="col-lg-4 one">
+			<div class="col-lg-4 col-md-4 one reveal">
 				<h2>Financial calender</h2>
 				<br><br>
 				<h6>09 MAR 2022</h6>
 				<h5>2021 Full Year Report</h5>
 			</div>
-			<div class="col-lg-7 two">
+			<div class="col-lg-7 col-md-7 two">
 				<div class="row">
 					<h2 class="col-lg-12">Latest News</h2>
 					<br><br>
 					
-						<div class="col-lg-6">
+						<div class="col-lg-6 col-md-6 reveal">
 							<h6>01 NOV 2021</h6>
 							<h5>Prudential plc - Publication of Final Terms relating to the issue of US$1,000,000,000 2.95 per cent. Subordinated Notes due 3 November 2033 by Prudential plc (“Prudential” or the “Company”)</h5><br><br>
 							<p>-- READ ARTICLE</p>
 						</div>
 
-						<div class="col-lg-6">
+						<div class="col-lg-6 col-md-6 reveal">
 							<h6>28 OCT 2021</h6>
 							<h5>Prudential celebrates the opening of its Africa Regional Headquarters in Nairobi</h5><br><br>
 							<p>-- READ ARTICLE</p>
@@ -192,7 +219,7 @@
 
 <div class="container-fluid content11">
 		<div class="row">
-			<div class="col-lg-3">
+			<div class="col-lg-3 col-md-6 reveal">
 				<h3>Prudential plc</h3>
 				<p>1 Angel Court</p>
 				<p>London EC2R 7AG</p>
@@ -200,19 +227,19 @@
 				<p>- CONTACT REGISTRAR</p>
 				<p>- VIEW MAP</p>				
 			</div>			
-			<div class="col-lg-3">
+			<div class="col-lg-3 col-md-6 reveal">
 				<h3>Useful links</h3>
 				<p>Our purpose</p>
 				<p>Result center</p>
 				<p>Modern Slavery Statement</p>	
 			</div>
-			<div class="col-lg-3">
+			<div class="col-lg-3 col-md-6 reveal">
 				<h3>Stay connected</h3>
 				<p>Twitter</p>
 				<p>LinkedIn</p>
 				<p>YouTube</p>	
 			</div>
-			<div class="col-lg-3">
+			<div class="col-lg-3 col-md-6 reveal">
 				<h3>Share Information</h3><br>
 				<p>LONDON STOCK EXCHANGE</p>
 				<h5>1433.50GBP</h5><br>
@@ -234,7 +261,7 @@
 	<div class="container-fluid content12">
 		<div class="row">
 			<div class="col-lg-12">
-				<div class="row">
+				<div class="row reveal">
 					<div class="col-lg-2"><p>@Prudential 2021</p></div>
 					<div class="col-lg-8"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -243,7 +270,7 @@
 				</div>
 			</div>
 
-			<div class="col-lg-12">
+			<div class="col-lg-12 reveal">
 				<p >Prudential plc, incorporated and registered in England and Wales. Registered office: 1 Angel Court, London EC2R 7AG. Registered number 1397169.  Prudential plc is a holding company, some of whose subsidiaries are authorised and regulated, as applicable, by the Hong Kong Insurance Authority and other regulatory authorities.</p>
 
 				<p>rudential plc is not affiliated in any manner with Prudential Financial, Inc., a company whose principal place of business is in the United States of America or with the Prudential Assurance Company, a subsidiary of M&G plc, a company incorporated in the United Kingdom.</p>
@@ -255,13 +282,13 @@
 		</div>
 	</div>
 
-	<div class="container-fluid cookie">
+	<div class="container-fluid cookie" id="cookie">
 		<div class="row">
-			<div class="col-lg-7">
+			<div class="col-lg-7 col-md-12 col-sm-12 col-xs-12">
 				<p>This site uses cookies. To see how cookies are used, please review our <span><a href="">Privacy and cookies</a></span> page. If you agree to our use of cookies, please continue to use our site.</p>
 			</div>
-				<button class="col-lg-1 col-md-1 col-sm-2 col-xs-3">Continue</button>
-				<button class="col-lg-3 col-md-3 col-sm-4 col-xs-5">Change cookie preferences</button>
+				<button class="col-lg-1 col-md-2 col-sm-2 col-xs-1" onclick="toyin()">Continue</button>
+				<button class="col-lg-3 col-md-4 col-sm-4 col-xs-5" onclick="toyin()">Change cookie preferences</button>
 					
 		</div> 
 	</div>
@@ -348,7 +375,45 @@
 </div>
 
 
+<!-- <script type="text/javascript">
+	var myCarousel = document.querySelector('#myCarousel')
+var carousel = new bootstrap.Carousel(myCarousel)
+</script>
+ -->
 
+
+
+
+ <script type="text/javascript">
+ 	function toyin() {
+ 		document.getElementById('cookie').style.display = "none";
+ 	}
+ </script>
+
+	
+	SCROLL EFFECT 
+	 <script>
+	window.addEventListener('scroll', reveal);
+
+	function reveal(){
+		var reveals = document.querySelectorAll('.reveal');
+
+		for (var i = 0; i < reveals.length; i++) {
+			var windowheight = window.innerHeight;
+			var revealtop = reveals[i].getBoundingClientRect().top;
+			var revealpoint  = 150;
+
+			if(revealtop < windowheight - revealpoint){
+				reveals[i].classList.add('active');
+			} else {
+				reveals[i].classList.remove('active');
+			}
+		}
+	}
+
+
+
+	</script> 
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>		
