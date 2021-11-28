@@ -30,6 +30,7 @@ nav ul li a:hover {
 	color: #D52B1E;
 	font-size: 12px;
 	padding-bottom: 11px;
+	padding-top: 10px;
 }
 
 .row div h2 {
@@ -316,6 +317,10 @@ nav ul li a:hover {
 		font-size: 13px;
 	}
 
+	.two div {
+		padding-left: 15px;
+		padding-right: 15px; 
+	}
 
 }
 
