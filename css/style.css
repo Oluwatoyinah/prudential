@@ -176,6 +176,20 @@ body {
 	color: red;
 }
 
+.content12 ul li {
+	display: inline-block;
+}
+
+.content12 ul li a {
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	margin: 5px;
+}
+
+.content12 ul li a:hover {
+	color: yellow;
+}
  span a {
  	text-decoration: none;
  	color: #D52B1E;
@@ -195,6 +209,10 @@ body {
 	font-size: 14px;
 	border: 1px solid red;
 	padding: 3px 5px;
+}
+
+.offcanvas-header {
+	padding: 0 50px; 
 }
 
 .offcanvas-body .row div {
@@ -331,30 +349,35 @@ body {
 	width: 100vw;
 }
 
-	.offcanvas {
-		display: none;
-	}
+	
 
 	.navbar-collapse {
 	min-height: 100vh;
 	text-align: center;
 	padding-top: 20px;
 }	
-	
+/*	
 	.container-fluid {
 		padding-left: 5%;
 		padding-right: 5%; 
+		width: 100vw;
+	}
+*/
+	
+	.content2, .content3, .content4, .content5, .content6, .content7 {
+		padding-left: 5%;
+		padding-right: 5%; 
+		width: 100vw;
 	}
 
-	
-
 	.career {
-	
-	
-	margin-bottom: 0;
+		width: 100vw;
+		margin-bottom: 0;
 }
 	
-
+.content9 {
+	min-height: 40vh;
+}
 	.content3 p , .content4 p,  .content9 p {
 	font-size: 18px;
 }
@@ -393,18 +416,28 @@ body {
 
 .one {
 	background-color: white;
-	padding: 50px 3% 20px 10%;
-	min-height: 20vh;
+	padding: 50px 5% 20px 5%;
+	min-height: 15vh;
 }
 .two {
-	padding: 40px 10% 40px 3%;
+	padding: 40px 5% 40px 5%;
 	min-height: 90vh;
 }
 
-.content10, .content8, .content9, .content11 {
+.content11 .row div {
+	min-height: 200px;
+	padding: 40px 40px;
+}
+.content11 .row div:nth-child(odd) {
+	background-color: #0C0F15 ;
+}
+
+/*
+.content10, .content8, .content9, .content11, .content1 {
 	padding-left: 0;
 	padding-right: 0;
-}
+	width: 100vw;
+}*/
 
 
 }
