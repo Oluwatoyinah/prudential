@@ -3,6 +3,31 @@ body {
 	font-family: 'Oxygen', sans-serif;
 }
 
+.row div a {
+	text-decoration: none;
+	font-size: 13px;
+	color: #0D131D;
+	position: relative;
+	padding: 10px 0;
+}
+
+.content5 a::after, .content6 a::after, .content7 a::after, .content10 a::after, .content11 a::after {
+	content: '';
+	width: 30px;
+	height: 2px;
+	background-color: #27a0a6;
+	position: absolute;
+	left: -35px;
+	top: 40%;
+	border-radius: 20px;
+}
+
+
+
+.content6 li, .content7 li {
+	list-style-type: none;
+	display: inline-block;
+}
 .navbar-custom {
 	background-color: white;
 	padding: 20px 40px;
@@ -30,13 +55,13 @@ body {
 .row div h6 {
 	color: #D52B1E;
 	font-size: 12px;
-	padding-bottom: 11px;
+	padding-bottom: 8px;
 	padding-top: 10px;
 }
 
 .row div h2 {
-	color: #0D131D;
 	font-size: 32px;
+	font-weight: bolder;
 }
 	
 
@@ -64,10 +89,12 @@ body {
 .content3 {
 	padding: 100px 18% 100px 8%;
 	min-height: 50vh; 
-	margin: auto;
 }
 
-.content3 p , .content4 p, .content6 h3, .content9 p {
+.content3 .row div {
+	margin: 0 auto;
+}
+.content3 p , .content4 p, .content9 p {
 	font-size: 22px;
 	font-weight: normal;
 }
@@ -84,6 +111,7 @@ body {
 	font-size: 26px;
 	color: #0D131D;
 	padding-bottom: 30px;
+	font-weight: bold;
 }
 
 .content5 p {
@@ -143,8 +171,17 @@ body {
 .two {
 	padding: 100px 10% 100px 3%;
 	min-height: 90vh;
+
 }
 
+
+.two .row div {
+	margin: 0 auto;
+}
+
+.content10 h3 {
+	font-weight: bold;
+}
 .content11 .row div {
 	padding: 50px 50px;
 	background-color: #0D131D ;
@@ -191,9 +228,9 @@ body {
 .content12 ul li a:hover {
 	color: yellow;
 }
- span a {
+ span {
  	text-decoration: none;
- 	color: #D52B1E;
+ 	color:#D52B1E;
  }
 .cookie {
 	padding: 10px 6%;
@@ -286,7 +323,6 @@ body {
 }
 
 
-
 /*SCROLL EFFECT*/
 
 .reveal {
@@ -304,6 +340,13 @@ body {
 
 @media screen and (max-width: 737px) {
 
+	.row div h5 {
+		font-weight: normal;
+		padding-top: 15px;
+	}
+		.cookie {
+			display: none;
+		}
 .content1 {
 	padding: 150px 10%;
 	min-height: 75vh;
@@ -322,28 +365,10 @@ body {
 	min-height: 40vh; 
 }
 
-	.content3 {
+	.content3, .content4, .content5 , .content6, .content7 {
 	padding-top: 20px;
 	min-height: 40vh; 
-	padding-bottom: 15px; 
-}
-
-.content4 {
-	padding-top: 20px;
-	padding-bottom: 15px; 
-	min-height: 40vh
-}
-
-.content5 {
-	padding-top: 20px;
-	min-height: 40vh;
-	padding-bottom: 15px;
-}		
-	
-	.content6 {
-	padding-top: 20px;
-	min-height: 40vh;
-	padding-bottom: 15px;
+	padding-bottom: 25px; 
 }
 
 .sub {
@@ -373,10 +398,8 @@ body {
 .content9 {
 	min-height: 40vh;
 }
-	.content3 p , .content4 p,  .content9 p {
-	font-size: 18px;
-}
-	.content5 h3, .content6 h3 {
+
+	.content5 h3,{
 		font-size: 22px;
 	}
 
@@ -384,9 +407,6 @@ body {
 	
 	font-size: 26px;
 }
-	.row div p {
-		font-size: 13px;
-	}
 
 	.two div {
 		padding-left: 15px;
@@ -399,15 +419,6 @@ body {
 	width: 50%;
 }		
 	
-.cookie button {
-	margin: 5px 5px;
-	background-color: red;
-	color: white;
-	font-size: 14px;
-	border: 1px solid red;
-	padding: 4px 6px;
-	max-width: 150px;
-}
 
 .one {
 	background-color: white;
@@ -415,7 +426,7 @@ body {
 	min-height: 15vh;
 }
 .two {
-	padding: 40px 5% 40px 5%;
+	padding: 20px 5% 40px 5%;
 	min-height: 90vh;
 }
 
@@ -425,6 +436,11 @@ body {
 }
 .content11 .row div:nth-child(odd) {
 	background-color: #0C0F15 ;
+}
+
+.content5 a::after {
+	width: 15px;
+	left: -16px;
 }
 
 
