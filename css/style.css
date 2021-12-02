@@ -21,11 +21,7 @@ body {
 	color: #D52B1E;
 	
 }
-nav ul li a:hover {
-	text-decoration: underline;
-	padding-bottom: 3px;
-	text-decoration-color: red;
-}
+
 .option {
 	height: 100vh;
 }
@@ -91,7 +87,12 @@ nav ul li a:hover {
 }
 
 .content5 p {
-	padding-bottom: 30px;
+	
+	font-size: 12px;
+}
+
+
+.content6 p, .content7 p, .content10 p{
 	font-size: 12px;
 }
 .content6 {
@@ -175,7 +176,10 @@ nav ul li a:hover {
 	color: red;
 }
 
-
+ span a {
+ 	text-decoration: none;
+ 	color: #D52B1E;
+ }
 .cookie {
 	padding: 10px 6%;
 	position: sticky;
@@ -190,7 +194,7 @@ nav ul li a:hover {
 	color: white;
 	font-size: 14px;
 	border: 1px solid red;
-	padding: 5px 10px;
+	padding: 3px 5px;
 }
 
 .offcanvas-body .row div {
@@ -386,6 +390,22 @@ nav ul li a:hover {
 	padding: 4px 6px;
 	max-width: 150px;
 }
+
+.one {
+	background-color: white;
+	padding: 50px 3% 20px 10%;
+	min-height: 20vh;
+}
+.two {
+	padding: 40px 10% 40px 3%;
+	min-height: 90vh;
+}
+
+.content10, .content8, .content9, .content11 {
+	padding-left: 0;
+	padding-right: 0;
+}
+
 
 }
 
