@@ -3,12 +3,86 @@ body {
 	font-family: 'Oxygen', sans-serif;
 }
 
+/*WEB NAVBAR*/
+.navbar-custom2 {
+	background-color: white;
+	padding: 10px 15px;
+	position: sticky;
+	top: 0;
+	z-index: 2;
+}
 
+.mobile{
+	display: flex;
+}
+.navbar-custom2 li a {
+	color: #0D131D;
+	font-size: 18px;
+}
+
+.navbar-custom2 .navbar-nav {
+	min-height: 100vh;
+}
+.navbar-custom2 ul li {
+	text-align: center;
+	padding: 0 15px; 
+	overflow-y: auto;
+}
+
+.navbar-nav .dropdown-menu {
+	border: none;
+	text-align: center;
+	margin: 10px 0;
+}
+
+.navbar-nav .dropdown-menu li a {
+	text-decoration: none;
+	font-weight: bold;
+} 
+
+.bott {
+	height: 30%;
+	background-color: #ccc;
+	position: absolute;
+	top: 70%;
+	left: 0;
+}
+
+.last ul {
+	display: flex;
+	justify-content: center;
+}
+.last ul li {
+	list-style-type: none;
+	display: inline block;
+	margin: 20px auto;
+}
+
+.last ul li a {
+	text-decoration: none;
+	color: #0D131D;
+	font-size: 16px;
+}
+
+
+.content1 p {
+	font-size: 12px;
+	letter-spacing: 2px;
+}
+
+.content2 p {
+	font-size: 32px;
+}
+
+.content22 p {
+	font-size: 18px;
+}
 .navbar-custom {
 	background-color: white;
 	padding: 20px 40px;
 	position: sticky;
 	top: 0;
+	z-index: 2;
 
 }
 
@@ -43,8 +117,8 @@ nav ul li a:hover {
 }
 
 .content1 h1 {
+	font-weight: bolder;
 	font-size: 45px;
-	font-family: oxygen;
 }
 
 
@@ -52,8 +126,22 @@ nav ul li a:hover {
 	padding: 100px 18%;
 }
 
-.content2 p {
-	font-size: 19px;
+.content8 h1 {
+	font-weight: bolder;
+	font-size: 45px;
+}
+
+.content22 {
+	padding: 100px 18%;
+}
+
+.content8 p {
+	font-size: 22px;
+}
+
+.row div h2 {
+	font-weight: bolder;
+	font-size: 40px;
 }
 
 .content11 .row div {
@@ -89,6 +177,10 @@ nav ul li a:hover {
 .content5 {
 	padding: 100px 8% 100px 18%;
 	min-height: 80vh;
+}
+
+.content5 p, .content7 p, .content4 p {
+	font-size: 22px;
 }
 
 .content7 {
@@ -142,17 +234,49 @@ nav ul li a:hover {
 }
 
 
-@media screen and (max-width: 787px) {
-	.offcanvas {
-		display: none;
-	}
+/*SCROLL EFFECT*/
 
-	.navbar-collapse {
-	min-height: 100vh;
-	text-align: center;
-	padding-top: 20px;
+.reveal {
+	position: relative;
+	transform: translateY(50px);
+	opacity: 0;
+	transition: all 1s ease-in-out;
+}
+
+.reveal.active {
+	transform: translateY(0px);
+	opacity: 1;
 }
 
 
 
+
+@media screen and (max-width: 989px) {
+	
+
+	.content1 p {
+		display: none;
+	}
+
+	.content2, .content4, .content5, .content22{
+		padding: 40px 5%;
+	}
+
+	.content2 p{
+		font-size: 20px;
+	}
+
+	.content5 p, .content7 p, .content4 p, .content8 p {
+	font-size: 18px;
+}	
+
+.content8 h1 {
+	font-weight: bold;
+	font-size: 32px;
+}	
+	
+.row div h2 {
+	font-weight: bold;
+	font-size: 32px;
+}
 }
