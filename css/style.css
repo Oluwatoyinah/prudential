@@ -3,6 +3,67 @@ body {
 	font-family: 'Oxygen', sans-serif;
 }
 
+/*WEB NAVBAR*/
+.navbar-custom2 {
+	background-color: white;
+	padding: 10px 15px;
+	position: sticky;
+	top: 0;
+	z-index: 2;
+}
+
+.mobile{
+	display: flex;
+}
+.navbar-custom2 li a {
+	color: #0D131D;
+	font-size: 18px;
+}
+
+.navbar-custom2 .navbar-nav {
+	min-height: 100vh;
+}
+.navbar-custom2 ul li {
+	text-align: center;
+	padding: 0 15px; 
+	overflow-y: auto;
+}
+
+.navbar-nav .dropdown-menu {
+	border: none;
+	text-align: center;
+	margin: 10px 0;
+}
+
+.navbar-nav .dropdown-menu li a {
+	text-decoration: none;
+	font-weight: bold;
+} 
+
+.bott {
+	height: 30%;
+	background-color: #ccc;
+	position: absolute;
+	top: 70%;
+	left: 0;
+}
+
+.last ul {
+	display: flex;
+	justify-content: center;
+}
+.last ul li {
+	list-style-type: none;
+	display: inline block;
+	margin: 20px auto;
+}
+
+.last ul li a {
+	text-decoration: none;
+	color: #0D131D;
+	font-size: 16px;
+}
+
 .row div a {
 	text-decoration: none;
 	font-size: 13px;
@@ -182,6 +243,14 @@ body {
 .content10 h3 {
 	font-weight: bold;
 }
+
+.content11 h5 {
+	font-size: 13px;
+}
+
+.content11 h4 {
+	font-size: 28px;
+}
 .content11 .row div {
 	padding: 50px 50px;
 	background-color: #0D131D ;
@@ -338,16 +407,16 @@ body {
 }
 
 
+
+
 @media screen and (max-width: 737px) {
 
 	.row div h5 {
 		font-weight: normal;
 		padding-top: 15px;
 	}
-		.cookie {
-			display: none;
-		}
-.content1 {
+		
+	.content1 {
 	padding: 150px 10%;
 	min-height: 75vh;
 	color: #0D131D;
@@ -375,15 +444,6 @@ body {
 	width: 100vw;
 }
 
-	
-
-	.navbar-collapse {
-	min-height: 100vh;
-	text-align: center;
-	padding-top: 20px;
-}	
-
-	
 	.content2, .content3, .content4, .content5, .content6, .content7 {
 		padding-left: 5%;
 		padding-right: 5%; 
@@ -416,7 +476,7 @@ body {
 
 .navbar-brand img{
 	text-align: center;
-	width: 50%;
+	width: 70%;
 }		
 	
 
@@ -438,11 +498,20 @@ body {
 	background-color: #0C0F15 ;
 }
 
-.content5 a::after {
+.content5 a, .content10 a, .content11 a {
+	margin: 0 20px;
+}
+.content5 a::after, .content10 a::after, .content11 a::after {
 	width: 15px;
-	left: -16px;
+	left: -18px;
+}
+.content12 {
+	padding: 40px 15px;
 }
 
+.content12 .row div.row {
+	padding-bottom: 20px;
+}
 
 }
 
