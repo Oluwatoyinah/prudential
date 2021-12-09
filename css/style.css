@@ -4,6 +4,7 @@ body {
 }
 
 /*WEB NAVBAR*/
+
 .navbar-custom2 {
 	background-color: white;
 	padding: 10px 15px;
@@ -18,6 +19,7 @@ body {
 .navbar-custom2 li a {
 	color: #0D131D;
 	font-size: 18px;
+
 }
 
 .navbar-custom2 .navbar-nav {
@@ -101,8 +103,12 @@ body {
 .navbar-custom li a {
 	color: #0D131D;
 	font-size: 18px;
+	cursor: pointer;
 }
 
+.navbar-custom li a:hover {
+	color: red;
+}
 .navbar-custom .nav2 li a  {
 	color: #D52B1E;
 	
