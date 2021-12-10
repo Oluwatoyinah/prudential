@@ -3,7 +3,8 @@ body {
 	font-family: 'Oxygen', sans-serif;
 }
 
-/*WEB NAVBAR*/
+
+
 
 .navbar-custom2 {
 	background-color: white;
@@ -91,6 +92,8 @@ body {
 	list-style-type: none;
 	display: inline-block;
 }
+
+/*WEB NAVBAR*/
 .navbar-custom {
 	background-color: white;
 	padding: 20px 40px;
@@ -102,16 +105,35 @@ body {
 
 .navbar-custom li a {
 	color: #0D131D;
-	font-size: 18px;
+	font-size: 16px;
 	cursor: pointer;
+	margin: 0 8px;
+	transition: all 0.1s ease;
 }
 
 .navbar-custom li a:hover {
-	color: red;
+	border-bottom: 2px solid #D52B1E;
+	padding-bottom: 5px;
+	color: #0D131D;
 }
 .navbar-custom .nav2 li a  {
 	color: #D52B1E;
-	
+	margin: 0 10px;
+}
+
+.navbar-custom .nav2  {
+	color: #D52B1E;
+	position: absolute;
+	right: 40px;
+}
+
+.navv2 li a  {
+	color: #D52B1E;
+	margin: 0 10px;
+}
+ .navv2  {
+	color: #D52B1E;
+	float: right;
 }
 
 .option {

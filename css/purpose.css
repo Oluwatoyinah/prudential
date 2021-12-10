@@ -20,6 +20,11 @@ body {
 	font-size: 18px;
 }
 
+.navbar-custom2 li a:hover {
+	border-bottom: 1px solid #D52B1E;
+	padding-bottom: 4px;
+}
+
 .navbar-custom2 .navbar-nav {
 	min-height: 100vh;
 }
@@ -77,30 +82,55 @@ body {
 .content22 p {
 	font-size: 18px;
 }
+
+.content22 span a {
+	text-decoration: none;
+	color: #D52B1E;
+} 
 .navbar-custom {
 	background-color: white;
 	padding: 20px 40px;
 	position: sticky;
 	top: 0;
 	z-index: 2;
-
 }
 
 
 .navbar-custom li a {
 	color: #0D131D;
-	font-size: 18px;
+	font-size: 16px;
+	margin: 0 8px;
 }
+
 
 .navbar-custom .nav2 li a  {
 	color: #D52B1E;
-	
+	margin: 0 10px;
 }
-nav ul li a:hover {
-	text-decoration: underline;
-	padding-bottom: 3px;
-	text-decoration-color: red;
+
+.navbar-custom .nav2  {
+	color: #D52B1E;
+	position: absolute;
+	right: 40px;
 }
+
+
+.navv2 li a  {
+	color: #D52B1E;
+	margin: 0 10px;
+}
+ .navv2  {
+	color: #D52B1E;
+	float: right;
+}
+
+.navbar-custom ul li a:hover {
+	border-bottom: 2px solid #D52B1E;
+	padding-bottom: 5px;
+	color: #0D131D;
+
+}
+
 .option {
 	height: 100vh;
 }
@@ -174,6 +204,21 @@ nav ul li a:hover {
 	color: red;
 }
 
+.content12 ul li {
+	display: inline-block;
+}
+
+.content12 ul li a {
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	margin: 5px;
+	font-size: 14px;
+}
+
+.content12 ul li a:hover {
+	color: yellow;
+}
 .content5 {
 	padding: 100px 8% 100px 18%;
 	min-height: 80vh;
