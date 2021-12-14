@@ -70,7 +70,7 @@ body {
 .content10 a::after, 
 .content11 a::after {
 	content: '';
-	width: 30px;
+	width: 25px;
 	height: 2px;
 	background-color: #27a0a6;
 	position: absolute;
