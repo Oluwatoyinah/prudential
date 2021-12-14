@@ -4,49 +4,22 @@ body {
 }
 
 
-
-
-.navbar-custom2 {
-	background-color: white;
-	padding: 10px 15px;
-	position: sticky;
-	top: 0;
-	z-index: 2;
+/*SCROLL EFFECT*/
+.reveal {
+	position: relative;
+	transform: translateY(50px);
+	opacity: 0;
+	transition: all 1s ease-in-out;
 }
 
-.mobile{
-	display: flex;
-}
-.navbar-custom2 li a {
-	color: #0D131D;
-	font-size: 18px;
-
+.reveal.active {
+	transform: translateY(0px);
+	opacity: 1;
 }
 
-.navbar-custom2 .navbar-nav {
-	min-height: 100vh;
-}
 
-.navbar-custom2 .navbar-nav .open > a ,
-.navbar-custom2 .navbar-nav .open > a:focus ,
-.navbar-custom2 .navbar-nav .open > a:hover , {
-	color:  #D52B1E;
-	padding-bottom: 4px;
-	font-weight: bold;
-}
 
-.navbar-custom2 .navbar-nav > li > a:focus, 
-.navbar-custom2 .navbar-nav > li > a:hover {
-	color:  #D52B1E;
-	padding-bottom: 4px;
-	font-weight: bold;
-}
 
-.navbar-custom2 ul li {
-	text-align: center;
-	/*padding: 0 px; */
-	overflow-y: auto;
-}
 
 .navbar-nav .dropdown-menu {
 	border: none;
@@ -91,7 +64,11 @@ body {
 	padding: 10px 0;
 }
 
-.content5 a::after, .content6 a::after, .content7 a::after, .content10 a::after, .content11 a::after {
+.content5 a::after,
+.content6 a::after, 
+.content7 a::after, 
+.content10 a::after, 
+.content11 a::after {
 	content: '';
 	width: 30px;
 	height: 2px;
@@ -102,12 +79,12 @@ body {
 	border-radius: 20px;
 }
 
-
-
 .content6 li, .content7 li {
 	list-style-type: none;
 	display: inline-block;
 }
+
+
 
 /*WEB NAVBAR*/
 .navbar-custom {
@@ -154,6 +131,48 @@ body {
 
 .option {
 	height: 100vh;
+}
+
+.navbar-custom2 {
+	background-color: white;
+	padding: 10px 15px;
+	position: sticky;
+	top: 0;
+	z-index: 2;
+}
+
+.mobile{
+	display: flex;
+}
+.navbar-custom2 li a {
+	color: #0D131D;
+	font-size: 18px;
+
+}
+
+.navbar-custom2 .navbar-nav {
+	min-height: 100vh;
+}
+
+.navbar-custom2 .navbar-nav .open > a ,
+.navbar-custom2 .navbar-nav .open > a:focus ,
+.navbar-custom2 .navbar-nav .open > a:hover , {
+	color:  #D52B1E;
+	padding-bottom: 4px;
+	font-weight: bold;
+}
+
+.navbar-custom2 .navbar-nav > li > a:focus, 
+.navbar-custom2 .navbar-nav > li > a:hover {
+	color:  #D52B1E;
+	padding-bottom: 4px;
+	font-weight: bold;
+}
+
+.navbar-custom2 ul li {
+	text-align: center;
+	/*padding: 0 px; */
+	overflow-y: auto;
 }
 
 
@@ -251,8 +270,6 @@ body {
 
 .content9 {
 	min-height: 100vh;
-
-
 }
 
 .career {
@@ -306,7 +323,6 @@ body {
 
 
 .content11 .row div:hover {
-
 	background-color: #0C0F15 ;
 }
 
@@ -436,21 +452,6 @@ body {
 }
 
 
-/*SCROLL EFFECT*/
-
-.reveal {
-	position: relative;
-	transform: translateY(50px);
-	opacity: 0;
-	transition: all 1s ease-in-out;
-}
-
-.reveal.active {
-	transform: translateY(0px);
-	opacity: 1;
-}
-
-
 
 
 @media screen and (max-width: 737px) {
@@ -566,8 +567,6 @@ body {
 		padding: 100px 3%;
 		min-height: 90vh;
 	}
-
-
 
 }
 
