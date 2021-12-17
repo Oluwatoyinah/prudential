@@ -33,10 +33,10 @@ body {
 } 
 
 .bott {
-	height: 20%;
+	height: 25%;
 	background-color: #ccc;
-	position: absolute;
-	top: 80%;
+	position: fixed;
+	top: 75%;
 	left: 0;
 	z-index: 10;
 }
@@ -181,6 +181,12 @@ body {
 	/*padding: 0 px; */
 	/*overflow-y: auto;*/
 	overflow: scroll;
+
+}
+
+
+.navbar-custom2 .navbar-nav {
+	padding-bottom: 30%;
 }
 
 .row div h6 {
