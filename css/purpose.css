@@ -19,16 +19,16 @@ body {
 	color: #0D131D;
 	font-size: 18px;
 }
-
+/*
 .navbar-custom2 .navbar-nav {
 	padding-bottom: 30%;
-}
+}*/
 
 .bott {
-	height: 25%;
+	height: 30%;
 	background-color: #ccc;
-	position: fixed;
-	top: 75%;
+	/*position: fixed;*/
+	top: 70%;
 	left: 0;
 	z-index: 10;
 }
@@ -40,7 +40,7 @@ body {
 }
 
 .navbar-custom2 .navbar-nav {
-	min-height: 120vh;
+	min-height: 100vh;
 }
 
 .navbar-custom2 .navbar-nav .open > a ,
