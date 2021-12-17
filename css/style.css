@@ -33,11 +33,12 @@ body {
 } 
 
 .bott {
-	height: 30%;
+	height: 20%;
 	background-color: #ccc;
 	position: absolute;
-	top: 70%;
+	top: 80%;
 	left: 0;
+	z-index: 10;
 }
 
 .last ul {
@@ -172,9 +173,15 @@ body {
 .navbar-custom2 ul li {
 	text-align: center;
 	/*padding: 0 px; */
-	overflow-y: auto;
+	/*overflow-y: auto;*/
+	overflow: scroll;
 }
 
+.navbar-custom2 ul {
+	/*padding: 0 px; */
+	/*overflow-y: auto;*/
+	overflow: scroll;
+}
 
 .row div h6 {
 	color: #D52B1E;

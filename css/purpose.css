@@ -21,9 +21,23 @@ body {
 }
 
 
+.bott {
+	height: 20%;
+	background-color: #ccc;
+	position: absolute;
+	top: 80%;
+	left: 0;
+	z-index: 10;
+}
+
+.navbar-custom2 ul {
+	/*padding: 0 px; */
+	/*overflow-y: auto;*/
+	overflow: scroll;
+}
 
 .navbar-custom2 .navbar-nav {
-	min-height: 100vh;
+	min-height: 120vh;
 }
 
 .navbar-custom2 .navbar-nav .open > a ,
@@ -339,4 +353,16 @@ body {
 	font-weight: bold;
 	font-size: 32px;
 }
+
+#web-nav {
+	display: none;
 }
+
+.dropdown .dropdown-menu li {
+	border: none;
+	overflow: scroll;
+}
+
+
+}
+
