@@ -384,7 +384,8 @@ body {
 
 .offcanvas-body .row div {
 	
-	border: 0 1px solid rgba(42,42,42,0.5);
+	border: 0 4px solid rgba(42,42,42,0.5);
+
 }
 
 .offcanvas-body .row div img{
@@ -397,7 +398,7 @@ body {
 	font-size: 18px;
 	color: #0D131D;
 	font-weight: bold;
-	transition: padding 800ms ease-in;
+	transition: padding 300ms ease-in;
 }
 
 .offcanvas-body .row div ul li a:hover{
@@ -408,6 +409,9 @@ body {
 	margin-right: 30px;
 }
 
+.offcanvas-body {
+	padding-bottom: 150px;
+}
 
 .but1 {
 	background-color: transparent;
