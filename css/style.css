@@ -33,12 +33,10 @@ body {
 } 
 
 .bott {
-	height: 30%;
+	height: 20%;
 	background-color: #ccc;
-	/*position: static;*/
-	top: 70%;
-	left: 0;
-	/*z-index: 10;*/
+
+	top: 80%;
 }
 
 .last ul {
@@ -147,7 +145,7 @@ body {
 }
 .navbar-custom2 li a {
 	color: #0D131D;
-	font-size: 18px;
+	font-size: 16px;
 
 }
 
@@ -172,15 +170,12 @@ body {
 
 .navbar-custom2 ul li {
 	text-align: center;
-	/*padding: 0 px; */
-	/*overflow-y: auto;*/
 	overflow: scroll;
 }
 
 .navbar-custom2 ul {
-	/*padding: 0 px; */
-	/*overflow-y: auto;*/
 	overflow: scroll;
+	padding-bottom: 40px;
 }
 
 .row div h6 {
