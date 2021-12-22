@@ -4,25 +4,6 @@ body {
 }
 
 /*WEB NAVBAR*/
-
-.navbar-nav .dropdown-menu {
-	border: none;
-	text-align: center;
-	margin: 5px 0;
-}
-
-.navbar-nav .dropdown-menu li a {
-	text-decoration: none;
-	font-weight: bold;
-} 
-
-.bott {
-	height: 30%;
-	background-color: #ccc;
-
-	top: 80%;
-}
-
 .navbar-custom2 {
 	background-color: white;
 	padding: 10px 15px;
@@ -36,65 +17,27 @@ body {
 }
 .navbar-custom2 li a {
 	color: #0D131D;
-	font-size: 16px;
-
+	font-size: 18px;
 }
-
+/*
 .navbar-custom2 .navbar-nav {
-	min-height: 100vh;
-}
+	padding-bottom: 30%;
+}*/
 
-.navbar-custom2 .navbar-nav .open > a ,
-.navbar-custom2 .navbar-nav .open > a:focus ,
-.navbar-custom2 .navbar-nav .open > a:hover , {
-	color:  #D52B1E;
-	padding-bottom: 4px;
-	font-weight: bold;
-}
-
-.navbar-custom2 .navbar-nav > li > a:focus, 
-.navbar-custom2 .navbar-nav > li > a:hover {
-	color:  #D52B1E;
-	padding-bottom: 4px;
-	font-weight: bold;
-}
-
-.navbar-custom2 ul li {
-	text-align: center;
-	overflow: scroll;
-}
-
-.navbar-custom2 ul {
-	overflow: scroll;
-	padding-bottom: 40px;
-}
-
-/*.navbar-custom2 {
-	background-color: white;
-	padding: 10px 15px;
-	position: sticky;
-	top: 0;
-	z-index: 2;
-}
-
-.mobile{
-	display: flex;
-}
-.navbar-custom2 li a {
-	color: #0D131D;
-	font-size: 16px;
-}
 .bott {
 	height: 30%;
 	background-color: #ccc;
-	top: 80%;
-	
+	/*position: fixed;*/
+	top: 70%;
+	left: 0;
+	/*z-index: 10;*/
 	width: 100vw;
 }
 
 .navbar-custom2 ul {
+	/*padding: 0 px; */
+	/*overflow-y: auto;*/
 	overflow: scroll;
-	padding-bottom: 40px;
 }
 
 .navbar-custom2 .navbar-nav {
@@ -121,7 +64,7 @@ body {
 .navbar-custom2 ul li {
 	text-align: center;
 	padding: 0 15px; 
-	overflow: scroll;
+	overflow-y: auto;
 }
 
 .navbar-nav .dropdown-menu {
@@ -135,8 +78,6 @@ body {
 	font-weight: bold;
 } 
 
-
-
 .bott {
 	height: 30%;
 	background-color: #ccc;
@@ -144,7 +85,7 @@ body {
 	top: 70%;
 	left: 0;
 }
-*/
+
 .last ul {
 	display: flex;
 	justify-content: center;
@@ -423,7 +364,7 @@ body {
 
 .dropdown .dropdown-menu li {
 	border: none;
-	overflow: visible;
+	overflow: scroll;
 }
 
 
