@@ -3,7 +3,7 @@ body {
 	font-family: 'Oxygen', sans-serif;
 }
 
-/*WEB NAVBAR*/
+/*MOBILE NAVBAR*/
 .navbar-custom2 {
 	background-color: white;
 	padding: 10px 15px;
@@ -19,24 +19,14 @@ body {
 	color: #0D131D;
 	font-size: 18px;
 }
-/*
-.navbar-custom2 .navbar-nav {
-	padding-bottom: 30%;
-}*/
-
 .bott {
 	height: 30%;
 	background-color: #ccc;
-	/*position: fixed;*/
-	top: 70%;
-	left: 0;
-	/*z-index: 10;*/
+	/*top: 70%;*/
 	width: 100vw;
 }
 
 .navbar-custom2 ul {
-	/*padding: 0 px; */
-	/*overflow-y: auto;*/
 	overflow: scroll;
 }
 
@@ -86,21 +76,6 @@ body {
 	left: 0;
 }
 
-.last ul {
-	display: flex;
-	justify-content: center;
-}
-.last ul li {
-	list-style-type: none;
-	display: inline block;
-	margin: 20px auto;
-}
-
-.last ul li a {
-	text-decoration: none;
-	color: #0D131D;
-	font-size: 16px;
-}
 
 
 .content1 p {
@@ -120,6 +95,8 @@ body {
 	text-decoration: none;
 	color: #D52B1E;
 } 
+
+/*WEB NAVBAR*/
 .navbar-custom {
 	background-color: white;
 	padding: 20px 40px;
@@ -163,12 +140,25 @@ body {
 	color: #0D131D;
 
 }
+.last ul {
+	display: flex;
+	justify-content: center;
+}
+.last ul li {
+	list-style-type: none;
+	display: inline block;
+	margin: 20px auto;
+}
 
-.option {
-	height: 100vh;
+.last ul li a {
+	text-decoration: none;
+	color: #0D131D;
+	font-size: 16px;
 }
 
 
+
+ /*CONTENT*/
 .row div h6 {
 	color: #D52B1E;
 	font-size: 13px;
@@ -285,6 +275,10 @@ body {
 	margin: auto;
 }
 
+
+/*OFFCANVAS*/
+
+
 .offcanvas-body .row div {
 	
 	border: 0 1px solid rgba(42,42,42,0.5);
@@ -307,6 +301,12 @@ body {
 	padding-left: 40px;
 	color: #D52B1E;
 }
+
+
+.option {
+	height: 100vh;
+}
+
 .option button {
 	margin-right: 30px;
 }
