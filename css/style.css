@@ -19,6 +19,7 @@ body {
 
 
 
+/*MOBILE*/
 
 
 .navbar-nav .dropdown-menu {
@@ -33,103 +34,10 @@ body {
 } 
 
 .bott {
-	height: 20%;
+	height: 30%;
 	background-color: #ccc;
 
 	top: 80%;
-}
-
-.last ul {
-	display: flex;
-	justify-content: center;
-}
-.last ul li {
-	list-style-type: none;
-	display: inline block;
-	margin: 20px auto;
-}
-
-.last ul li a {
-	text-decoration: none;
-	color: #0D131D;
-	font-size: 16px;
-}
-
-.row div a {
-	text-decoration: none;
-	font-size: 13px;
-	color: #0D131D;
-	position: relative;
-	padding: 10px 0;
-}
-
-.content5 a::after,
-.content6 a::after, 
-.content7 a::after, 
-.content10 a::after, 
-.content11 a::after {
-	content: '';
-	width: 25px;
-	height: 2px;
-	background-color: #27a0a6;
-	position: absolute;
-	left: -35px;
-	top: 40%;
-	border-radius: 20px;
-}
-
-.content6 li, .content7 li {
-	list-style-type: none;
-	display: inline-block;
-}
-
-
-
-/*WEB NAVBAR*/
-.navbar-custom {
-	background-color: white;
-	padding: 20px 40px;
-	position: sticky;
-	top: 0;
-	z-index: 2;
-}
-
-
-.navbar-custom li a {
-	color: #0D131D;
-	font-size: 16px;
-	cursor: pointer;
-	margin: 0 8px;
-	transition: all 0.1s ease;
-}
-
-.navbar-custom li a:hover {
-	border-bottom: 2px solid #D52B1E;
-	padding-bottom: 5px;
-	color: #0D131D;
-}
-.navbar-custom .nav2 li a  {
-	color: #D52B1E;
-	margin: 0 10px;
-}
-
-.navbar-custom .nav2  {
-	color: #D52B1E;
-	position: absolute;
-	right: 40px;
-}
-
-.navv2 li a  {
-	color: #D52B1E;
-	margin: 0 10px;
-}
- .navv2  {
-	color: #D52B1E;
-	float: right;
-}
-
-.option {
-	height: 100vh;
 }
 
 .navbar-custom2 {
@@ -178,6 +86,81 @@ body {
 	padding-bottom: 40px;
 }
 
+
+.row div a {
+	text-decoration: none;
+	font-size: 13px;
+	color: #0D131D;
+	position: relative;
+	padding: 10px 0;
+}
+
+
+
+
+/*WEB NAVBAR*/
+.navbar-custom {
+	background-color: white;
+	padding: 20px 40px;
+	position: sticky;
+	top: 0;
+	z-index: 2;
+}
+
+.last ul {
+	display: flex;
+	justify-content: center;
+}
+.last ul li {
+	list-style-type: none;
+	display: inline block;
+	margin: 20px auto;
+}
+
+.last ul li a {
+	text-decoration: none;
+	color: #0D131D;
+	font-size: 16px;
+}
+
+
+.navbar-custom li a {
+	color: #0D131D;
+	font-size: 16px;
+	cursor: pointer;
+	margin: 0 8px;
+	transition: all 0.1s ease;
+}
+
+.navbar-custom li a:hover {
+	border-bottom: 2px solid #D52B1E;
+	padding-bottom: 5px;
+	color: #0D131D;
+}
+.navbar-custom .nav2 li a  {
+	color: #D52B1E;
+	margin: 0 10px;
+}
+
+.navbar-custom .nav2  {
+	color: #D52B1E;
+	position: absolute;
+	right: 40px;
+}
+
+.navv2 li a  {
+	color: #D52B1E;
+	margin: 0 10px;
+}
+ .navv2  {
+	color: #D52B1E;
+	float: right;
+}
+
+
+
+
+/*CONTENT*/
 .row div h6 {
 	color: #D52B1E;
 	font-size: 12px;
@@ -264,6 +247,27 @@ body {
 .content5 .row div , .content6 .row div, .content7 .row div {
 	margin: auto;
 }
+
+.content5 a::after,
+.content6 a::after, 
+.content7 a::after, 
+.content10 a::after, 
+.content11 a::after {
+	content: '';
+	width: 25px;
+	height: 2px;
+	background-color: #27a0a6;
+	position: absolute;
+	left: -35px;
+	top: 40%;
+	border-radius: 20px;
+}
+
+.content6 li, .content7 li {
+	list-style-type: none;
+	display: inline-block;
+}
+
 .sub {
 	background-color: #F5F5F4;
 	padding: 120px 8%;
@@ -380,6 +384,8 @@ body {
 	padding: 3px 5px;
 }
 
+
+/*OFF-CANVAS*/
 .offcanvas-header {
 	padding: 0 50px; 
 }
@@ -407,6 +413,11 @@ body {
 	padding-left: 40px;
 	color: #D52B1E;
 }
+.option {
+	height: 100vh;
+}
+
+
 .option button {
 	margin-right: 30px;
 }
@@ -414,6 +425,9 @@ body {
 .offcanvas-body {
 	padding-bottom: 150px;
 }
+
+
+/*BUTTONS*/
 
 .but1 {
 	background-color: transparent;
@@ -514,10 +528,9 @@ body {
 		font-size: 22px;
 	}
 
-		.row div h2 {
-	
-	font-size: 26px;
-}
+	.row div h2 {
+		font-size: 26px;
+	}
 
 	.two div {
 		padding-left: 15px;
