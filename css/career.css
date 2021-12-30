@@ -35,7 +35,41 @@
 }
 
 
+ .content9 h2 {
+	font-size: 42px;
+	font-weight:bold;
+}
 
+.content9 h3 {
+	position: relative;
+}
+
+.content9 h3::after {
+  content: '';
+  width: 35px;
+  height: 4px;
+  background-color: white;
+  position: absolute;
+  left: -40px;
+  top: 40%;
+  border-radius: 20px;
+}
+
+
+	
+.content9 {
+	min-height: 100vh;
+}
+
+
+.career {
+	background-color: #646BB0;
+	padding: 100px 5% 50px 8%;
+	margin-top: 150px;
+	margin-bottom: 150px;
+	color: white;
+	min-height: 60vh
+}
 @media screen and (max-width: 989px) {
 	.head {
 		display: none;
@@ -76,4 +110,18 @@
  margin-bottom: 70px;
  min-height: 100vh;
 }
+
+.content9 {
+	min-height: 40vh;
+}
+
+ .content9 h2 {
+	font-size: 30px;
+	font-weight:bold;
+}
+	.career {
+		width: 100vw;
+		margin-bottom: 0;
+}
+
 }
