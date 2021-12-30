@@ -55,6 +55,21 @@
   border-radius: 20px;
 }
 
+.content15 p {
+	position: relative;
+}
+
+.content15 p::after {
+  content: '';
+  width: 35px;
+  height: 4px;
+  background-color: white;
+  position: absolute;
+  left: -40px;
+  top: 40%;
+  border-radius: 20px;
+}
+
 
 	
 .content9 {
