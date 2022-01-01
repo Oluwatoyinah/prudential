@@ -27,9 +27,31 @@ ESG
 }
 
 .content4 {
-	padding: 50px 15%;
+	padding: 30px 15%;
 }
 
+.content9 {
+  padding: 30px 12%;
+}
+
+.content9 .row div {
+  margin: 0 auto;
+}
+
+.content9 p {
+  position: relative;
+}
+
+.content9 p::after {
+  content: '';
+  width: 35px;
+  height: 3px;
+  background-color: #27a0a6;
+  position: absolute;
+  left: -40px;
+  top: 40%;
+  border-radius: 20px;
+}
 .content5 {
   padding: 20px 12%;
  background: linear-gradient( to right , #646bb0 0%, #646bb0 30%, white 30%, white 100%);

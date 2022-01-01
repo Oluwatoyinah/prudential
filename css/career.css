@@ -55,7 +55,7 @@
   border-radius: 20px;
 }
 
-.content15 p {
+/*.content15 p {
 	position: relative;
 }
 
@@ -68,6 +68,22 @@
   left: -40px;
   top: 40%;
   border-radius: 20px;
+}*/
+
+.down {
+	 min-height: 80vh; 
+	 display: grid; 
+	 place-content:center; 
+	 display: flex;
+  justify-content: center;
+  align-items: center; 
+  padding: 50px 6%; 
+  text-align: center; 
+  color: white;
+  position: relative;
+  transition-duration: all 600ms ease;
+  z-index: 1;
+  background: transparent;
 }
 
 

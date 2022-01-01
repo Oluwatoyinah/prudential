@@ -36,6 +36,12 @@ FONT
 .tx-9{
   font-size: 0.52rem;
 }
+.tx-10{
+  font-size: 0.625rem;
+}
+.tx-12{
+  font-size: 0.75rem;
+}
 .tx-14{
   font-size: 0.875rem;
 }
@@ -110,13 +116,18 @@ FONT
 .link::after {
   content: '';
   width: 25px;
-  height: 2px;
+  height: 3px;
   background-color: #27a0a6;
   position: absolute;
   left: -35px;
   top: 40%;
   border-radius: 20px;
 }
+
+
+
+
+
 
 
 /*=======================================
@@ -436,6 +447,34 @@ OFF_CANVAS
   color: #D52B1E;
 }
 
+.canvas-img h6 {
+  position: relative;
+}
+
+
+.canvas-img h6::after {
+  content: '';
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  position: absolute;
+  left: -35px;
+  top: 40%;
+  border-radius: 20px;
+}
+
+
+.list-group {
+  list-style-type: none;
+}
+
+.list-group li a {
+  text-decoration: none;
+  color: #1a1a1f;
+  font-size: 18px;
+  font-weight: bold;
+  /*margin: 10px 0;*/
+}
 .option {
   height: 100vh;
 }
@@ -445,6 +484,27 @@ OFF_CANVAS
 
 .offcanvas-body {
   padding-bottom: 150px;
+}
+
+
+.canvas-img {
+  /*background-image: url('img/about-us.jpg');*/
+   height: 300px ; 
+   width: 90%; 
+   padding: 20px; 
+  color: white;
+  position: relative;
+  isolation: isolate;
+}
+
+.canvas-img::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  z-index: -1;
+  background: #0d1a26;
+  opacity: 0.7;
 }
 
 
